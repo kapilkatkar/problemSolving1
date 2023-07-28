@@ -29,7 +29,6 @@ console.log(starPattern1(5));
 // ***
 // **
 // *
-
 function starPattern2(input) {
   for (let i = 0; i < input; i++) {
     let txt = "";
@@ -56,11 +55,3 @@ function starPattern3(input) {
   }
 }
 starPattern3(5);
-
-/*
- *
- ***
- *****
- *******
- *********
- */
