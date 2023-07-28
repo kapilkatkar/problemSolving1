@@ -55,3 +55,49 @@ function starPattern3(input) {
   }
 }
 starPattern3(5);
+
+// 111
+// *
+// 333
+// *
+// 555
+
+// step1 - loop, for the no of rows
+// step2 - we will crete if else conditions
+// step2.1 - if it is even no print *
+//             else i
+
+function oddPattern(num) {
+  for (let i = 1; i <= num; i++) {
+    if (i % 2 === 0) {
+      console.log("*");
+    } else {
+      console.log(`${i}${i}${i}`);
+    }
+  }
+}
+console.log(oddPattern(5));
+
+// ####
+// 2
+// ####
+// 4
+// ####
+// 6
+// ####
+
+// step1 - first need a loop for the no of rows
+// step2 - we will crete if else conditions
+// step2.1 - if condition (for even number) - if it is even no print i
+//  else #
+
+function evenPattern(num) {
+  for (let i = 0; i <= num; i++) {
+    if (i % 2 === 0) {
+      console.log(`${i}`);
+    } else {
+      console.log("####");
+    }
+  }
+}
+console.log(evenPattern(7));
