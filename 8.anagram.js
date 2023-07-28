@@ -29,6 +29,14 @@ function angramFun(strng1, strng2) {
 console.log(angramFun("kapwil", "pilak"));
 
 //another way
+/*
+step 1 - create a fun and pass two params
+step 2 - split them
+step 3 - compare two variables using two loop
+step 4 - cut the matching words
+step 5 - check if any word in remaining or all are cut
+*/
+
 function angramFun1(string1, string2) {
   if (string1.length !== string2.length) {
     return `it is not an anagram`;
